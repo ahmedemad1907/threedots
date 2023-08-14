@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+.home{
+width: 100%;
+height: 100vh;
+background-image: url(../image/bbbbbb.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.home .nav{
+    width: 100%;
+   height: auto;
+    
+    background-image: linear-gradient(to right , black 60% , rgb(127, 18, 149));
+overflow: auto;
+
+
+}
+
+.home .nav .toggler{
+    display: none;
+}
+
+.home .nav ul{
+
+    
+  
+
+
+}
+
+.home .nav ul li {
+ display: inline;
+ margin: 25px;
+ margin-left: 45px;
+ 
+
+ float: right;
+
+
+}
+
+
+
+
+   
+.home .nav ul li a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+  
+}
+
+
+
+
+.home .nav .image{
+ float: left;
+ 
+ height: 50px;
+}
+
+.home .caption{
+    width: 800px;
+    height: 300px;
+text-align: center;
+   
+   margin-left: 350px;
+   margin-top: 250px;
+   
+}
+
+.home .caption h1{  
+    color: aliceblue;
+    font-size: 40px;
+   
+    
+}
+
+.home .caption button{
+color: aliceblue;
+    margin-top: 50px;
+    font-size: 30px;
+    border-radius: 40px;
+   background-color:transparent;
+   border-color: aliceblue;
+ 
+}
+
+
+    
+
+
+.home .caption button a{
+color: aliceblue;
+    padding: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.home2{
+    width:100% ;
+    height: 100vh;
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+.home2 .about{
+    width: 200px;
+    height: 80px;
+   color: aliceblue;
+    position: relative;
+    top: 50px;
+    left: 150px;
+ 
+
+}
+
+
+
+.home2 .about h5{
+
+    font-size: 15px;
+}
+
+
+
+.home2 h5::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: white;
+    top: 11%;
+    right: 30px;
+
+
+}
+
+
+.home2 .desc{
+
+    width: 530px;
+    height: auto;
+    
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+.home2 .desc h1{
+
+    color: aliceblue;
+    font-size: 28px;
+   
+}
+.home2 h3{
+    color: aliceblue;
+    font-size: 15px;
+    
+   margin-top: 20px;
+   margin-left: 150px;
+}
+
+.home2 .r{
+
+    width: 220px;
+    height: auto;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+.home2 .butt{
+
+    color: aliceblue;
+    background-color: rgb(181, 60, 181);
+    border-radius: 50px;
+    padding: 15px;
+    margin-left: 150px;
+    margin-top: 20px;
+    
+
+}
+
+.home2 .butt a{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+.home2 .logo{
+
+    width: 500px;
+    height: 500px;
+    float: right;
+   
+   position: relative;
+   right: 270px;
+   bottom: 500px;
+   background-image: url(./image/3d2.png);
+   background-size: cover;
+}
+
+.dos{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.info .adress{
+    width: 500px;
+    height: auto;
+    
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+
+.socials{
+    
+ position: relative;
+ display: flex;
+ justify-content: center;
+ margin-left: 480px;
+margin-top: -30px;
+
+}
+
+.socialinfo{
+    width: 180px;
+    height: auto;
+    color: aliceblue;
+    text-align: center ;
+    font-size: 25px;
+
+
+}
+.socialinfo a{
+    color: aliceblue;
+}
+
+.sponsers{
+    width: 250px;
+    height: 100px;
+   
+    float: right;
+   margin-top: -90px;
+   margin-right: -200px;
+}
+
+.sponsers .sponser1{
+    width: 100%;
+    height: 45%;
+  
+    
+}
+
+.sponsers .sponser1 img{
+    width: 45%;
+    height: 100%;
+}
+
+.sponsers .sponser1 .s1{
+
+   
+    width: 45%;
+    height: 100%;
+    font-size: 15px;
+    float: right;
+    margin-top: 15px;
+    color: aliceblue;
+    text-decoration: none;
+   
+
+
+}
+
+
+.sponsers .sponser2{
+    width: 100%;
+    height: 45%;
+   
+    margin-top: 10px;
+}
+
+.sponsers .sponser2 img{
+    width: 45%;
+    height: 100%;
+}
+
+.sponsers .sponser2 .s2{
+
+   
+    width: 45%;
+    height: 10%;
+    font-size: 15px;
+    float: right;
+    margin-top: -90px;
+    margin-left: 20px;
+    
+    color: aliceblue;
+    text-decoration: none;
+   
+
+
+}
+
+.end{
+
+    width: 400px;
+
+    margin-top: 150px;
+    margin-left: 200px;
+
+
+}
+
+.end .Copyright{
+
+    color: aliceblue;
+   
+    font-size: 18px;
+}
+
+.end h3{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.end span{
+    color: green;
+}
+
+
+
+@media (max-width: 650px){
+
+
+
+
+    .home .nav ul li a{
+        display: none;
+    }
+
+    .home .nav .image{
+        margin-top: 15px;
+    }
+   
+    .home .nav .toggler{
+        display: inline;
+        float: right;
+        margin-right: 50px;
+        margin-top: 20px;
+       
+    }
+
+    .home .nav .toggler button{
+        font-size: 40px;
+        background-color: transparent;
+        color: aliceblue;
+        border: none;
+    }
+
+    .home .caption{
+        width: 600px;
+        height: 300px;
+    text-align: center;
+       
+       margin-left: 10px;
+       margin-top: 250px;
+       
+    }
+    
+    .home2 .logo{
+
+   display: none;
+   
+   
+
+    }
+
+    .home2 .home2s{
+
+     margin-left: -70px;
+    }
+   
+ .socials {
+
+    margin-top: 180px;
+    margin-left: 25px;
+ }
+
+   .sponsers{
+
+
+    margin-top: 40px;
+    margin-right: 180px;
+   
+
+   }
+
+
+   .end{
+
+    margin-top: 180px;
+   
+   }
+    
+  
+   
+   
+
+
+
+}
